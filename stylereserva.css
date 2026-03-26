@@ -1,7 +1,6 @@
 body {
-  background-color: #273a52
+  background-color: #F3E6D8;
 }
-
 main {
   display: grid;
   grid-template-columns: repeat(3,1fr) ;
@@ -10,11 +9,11 @@ main {
 
 }
 main >* {
-  border: 4px solid rgb(150, 105, 60);
+  border: 4px solid #8A5A3C;
   }
 header {
-  border: 7px dashed rgb(150, 105, 60);
-  background-color: rgb(230, 165, 101);
+  border: 7px dashed #8A5A3C;
+  background-color: #F7D3A8;
 }
 header h1 {
   text-align: center;
@@ -22,30 +21,30 @@ header h1 {
   line-height: 50px;
 }
 div.coluna2 {
-  background-color: rgb(230, 165, 101);
+  background-color: #F7D3A8;
 }
 div.coluna3 img {
   width: 300px;
   height: 300px;
 }
 div.coluna3 {
-  background-color: rgb(230, 165, 101);
+  background-color: #F7D3A8;
   width: 605px;
 }
 aside {
   text-align:center;
-  background-color: rgb(230, 165, 101);
+  background-color: #F7D3A8;
   width: 500px;
   }
 footer {
-  border: 7px dashed rgb(150, 105, 60);
+  border: 7px dashed #8A5A3C;
   height: 60px;
   line-height: 60px;
-  background-color: rgb(230, 165, 101);
+  background-color: #F7D3A8;
   text-align: center;
 }
 .thumb {
-  border: 7px dashed rgb(150, 105, 60);
+  border: 7px dashed #8A5A3C;
   width: 349px;
   height: 300px;
   position: relative;
