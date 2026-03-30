@@ -3,34 +3,15 @@
 <head>
     <title>Perfil - Aside</title>
     <style>
-        header h1 {
-            border: 4px solid black;
-            height: 1remx;
-            width: 1remx;
-        }
-        main { 
-            border: 2px solid black;
-        }
-        main aside {
-            border: 2px solid red;
-            width: 350px;
-            display: inline-block;
-            vertical-align: top;
-        }
-        main aside .thumb img {
-            width: 100%;
-        }
-        main aside .thumb {
-            border: 2px solid blue;
-        }
-        main aside .info {
-            border: 2px solid green;
-        }
-        main section {
-             border: 2px solid rgb(25, 0, 255);
-             width: 1500px;
-             display: inline-block;
-        }
+      img {
+        max-width: 150px;
+      }
+      main {
+        border: dashed black;
+        padding: 1cm;
+        display: grid;
+        grid-template: repeat(4,1fr);
+      }
     </style>
 </head>
 <body>
@@ -75,11 +56,10 @@
                 <h3>
                 galeria
                 </h3>
-                <img src="https://i.etsystatic.com/11458156/r/il/991708/4733137421/il_794xN.4733137421_mdwc.jpg" alt="descrição da imagem" title="título da imagem" height="900px" width="700px">
                 <img src="https://p2.trrsf.com/image/fget/cf/500/0/images.terra.com/2026/02/21/1163610443-megadeth-chris-poland-dave-mustaine-1987-foto-paul-natkin-getty-images-884273626.jpg"
-                 alt="meggerdeth" title="titulo da imagem" height="750px" width="700px">
-                <img src="https://whiplash.net/imagens_promo_22/megadeth_mustaine_por_fernando_yokota.jpg" alt="descrição" title="titulo da imagem" height="900px" width="700px">
-                <img src="https://billboard.com.br/wp-content/uploads/2024/01/dave-mustaine-2.png" alt="descrição da imagem" title="titulo da imagem" height="900px" width="700px">
+                 alt="meggerdeth" title="titulo da imagem">
+                <img src="https://whiplash.net/imagens_promo_22/megadeth_mustaine_por_fernando_yokota.jpg" alt="descrição" title="titulo da imagem">
+                <img src="https://billboard.com.br/wp-content/uploads/2024/01/dave-mustaine-2.png" alt="descrição da imagem" title="titulo da imagem">
     </section>
   </main>
 </body>

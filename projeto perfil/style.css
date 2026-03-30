@@ -1,5 +1,5 @@
 body {
-  background-color: #273a52
+  background-color: hsl(226, 44%, 25%);
 }
 
 main {
@@ -23,6 +23,7 @@ header h1 {
 }
 div.coluna2 {
   background-color: rgb(230, 165, 101);
+  text-align: center;
 }
 div.coluna3 img {
   width: 300px;
@@ -116,8 +117,19 @@ p.bold {
   font-weight: 1000;
 }
 .subtitulo {
-  font-size: 120%;
+  font-size: 166%;
+  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
 }
 a {
-  color: rgb(150, 105, 60);
+  color: hsl(226, 55%, 37%);
+}
+.subtitulo {
+  text-decoration: underline;
+}
+.coluna4 img {
+  max-width: 1em;
+  max-height: 1em;
+}
+section {
+  display: grid;
 }
