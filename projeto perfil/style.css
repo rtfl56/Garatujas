@@ -1,52 +1,27 @@
 body {
-  background-color: hsl(226, 44%, 25%);
+  background-color: #F3E6D8;
 }
-
 main {
   display: grid;
-  grid-template-columns: repeat(3,1fr) ;
-  gap: 1rem;
-  padding: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
 
 }
 main >* {
-  border: 4px solid rgb(150, 105, 60);
+  border: 4px solid #8A5A3C;
   }
 header {
-  border: 7px dashed rgb(150, 105, 60);
-  background-color: rgb(230, 165, 101);
+  border: 7px dashed #8A5A3C;
+  background-color: #F7D3A8;
 }
 header h1 {
   text-align: center;
   height: 50px;
   line-height: 50px;
 }
-div.coluna2 {
-  background-color: rgb(230, 165, 101);
-  text-align: center;
-}
-div.coluna3 img {
-  width: 300px;
-  height: 300px;
-}
-div.coluna3 {
-  background-color: rgb(230, 165, 101);
-  width: 605px;
-}
-aside {
-  text-align:center;
-  background-color: rgb(230, 165, 101);
-  width: 500px;
-  }
-footer {
-  border: 7px dashed rgb(150, 105, 60);
-  height: 60px;
-  line-height: 60px;
-  background-color: rgb(230, 165, 101);
-  text-align: center;
-}
 .thumb {
-  border: 7px dashed rgb(150, 105, 60);
+  border: 7px dashed #8A5A3C;
   width: 349px;
   height: 300px;
   position: relative;
@@ -54,7 +29,20 @@ footer {
   display: inline-block;
   border-radius: 6px;
 }
+div.coluna {
+  background-color: #F7D3A8;
+  text-align: center;
+}
+div.coluna {
+  background-color: #F7D3A8;
+  width: 605px;
+}
 
+aside {
+  text-align:center;
+  background-color: #F7D3A8;
+  width: 500px;
+  }
 .imagens {
   position: absolute;
   inset: 0;
@@ -118,18 +106,28 @@ p.bold {
 }
 .subtitulo {
   font-size: 166%;
-  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+  text-shadow: 1.5px 0 0 currentColor, 1.5px 0 0 currentColor;
 }
 a {
-  color: hsl(226, 55%, 37%);
+  color: #8A5A3C;
 }
 .subtitulo {
   text-decoration: underline;
 }
-.coluna4 img {
-  max-width: 1em;
-  max-height: 1em;
+.galeria img {
+ width: 100%;
+ height: 100%;
+ object-fit: fill;
 }
-section {
+div.galeria {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 300px
+}
+footer {
+  border: 7px dashed #8A5A3C;
+  height: 60px;
+  line-height: 60px;
+  background-color: #F7D3A8;
+  text-align: center;
 }
