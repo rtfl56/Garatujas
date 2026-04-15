@@ -108,7 +108,7 @@ p.bold {
   font-size: 166%;
   text-shadow: 1.5px 0 0 currentColor, 1.5px 0 0 currentColor;
 }
-a {
+.redirect-link {
   color: #8A5A3C;
 }
 .subtitulo {
