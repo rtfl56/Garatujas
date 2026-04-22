@@ -4,4 +4,5 @@ body {
 .container {
   background-color: #F7D3A8;
   text-align: center;
+  border: dashed #8A5A3C;
 }
