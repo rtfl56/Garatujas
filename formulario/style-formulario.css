@@ -6,3 +6,38 @@ body {
   text-align: center;
   border: dashed #8A5A3C;
 }
+form {
+  width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+form label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+form input[type="text"],
+form select {
+  width: 70%;
+  max-width: 300px;
+  text-align: center;
+}
+.radio-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+form button {
+  display: inline-block;
+  margin: 0 auto;
+}
